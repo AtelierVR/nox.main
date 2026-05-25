@@ -8,7 +8,7 @@ using Nox.Worlds;
 using Nox.Sessions;
 using UnityEngine;
 
-namespace api.nox.main {
+namespace Nox.Main.Runtime {
 	public class Client : IClientModInitializer {
 		private static IClientModCoreAPI _coreAPI;
 

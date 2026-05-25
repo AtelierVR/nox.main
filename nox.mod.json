@@ -23,7 +23,6 @@
       "website": "https://hactazia.fr/"
     }
   ],
-  "contributors": [],
   "relations": [
     {
       "id": "session",
@@ -32,13 +31,10 @@
   ],
   "entrypoints": {
     "main": [
-      "nox.main.Main"
+      "Nox.Main.Runtime.Main"
     ],
     "client": [
-      "nox.main.Client"
+      "Nox.Main.Runtime.Client"
     ]
-  },
-  "references": [],
-  
-  "permissions": []
+  }
 }

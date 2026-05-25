@@ -10,7 +10,7 @@ using Logger = Nox.CCK.Utils.Logger;
 using UnityEditor;
 #endif
 
-namespace api.nox.main {
+namespace Nox.Main.Runtime {
 	public class Main : IMainModInitializer {
 		private LanguagePack _lang;
 		private IModCoreAPI  _coreAPI;
@@ -20,7 +20,7 @@ namespace api.nox.main {
 		public void OnInitialize(IModCoreAPI api) {
 			_coreAPI = api;
 
-			api.LoggerAPI.Log("api.nox.main initialized");
+			api.LoggerAPI.Log("Nox.Main.Runtime initialized");
 
 			_lang = api.AssetAPI.GetAsset<LanguagePack>("pack.asset");
 			LanguageManager.AddPack(_lang);
