@@ -1,0 +1,6 @@
+﻿{
+  "name": "nox.main",
+  "displayName": "Nox - Main",
+  "version": "1.0.0",
+  "description": "Core initialization and bootstrapping API for the Nox runtime."
+}

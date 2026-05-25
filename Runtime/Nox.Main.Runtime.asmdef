@@ -1,0 +1,7 @@
+﻿{
+    "name": "Nox.Main.Runtime",
+    "rootNamespace": "",
+    "references": ["Nox.CCK","UniTask","Nox.Worlds","Nox.Sessions","Nox.Offline","Nox.CCK.Sessions"],
+    "includePlatforms": [],"excludePlatforms": [],"allowUnsafeCode": false,"overrideReferences": false,
+    "precompiledReferences": [],"autoReferenced": true,"defineConstraints": [],"versionDefines": [],"noEngineReferences": false
+}
