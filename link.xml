@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <linker>
 	<assembly fullname="Nox.Main.Runtime" preserve="all" />
-	<assembly fullname="Nox.Mods.Main" preserve="all" />
 </linker>
