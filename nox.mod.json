@@ -26,7 +26,8 @@
   "relations": [
     {
       "id": "session",
-      "type": "depends"
+      "type": "depends",
+      "register": "git+https://github.com/AtelierVR/nox.sessions.git"
     }
   ],
   "entrypoints": {
