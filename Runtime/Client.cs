@@ -24,7 +24,7 @@ namespace Nox.Main.Runtime {
 
 		private static ISessionAPI SessionAPI
 			=> _coreAPI.ModAPI
-				.GetMod("session")
+				.GetMod("sessions")
 				?.GetInstance<ISessionAPI>();
 
 		public async UniTask OnPostInitializeClientAsync() {
@@ -46,7 +46,7 @@ namespace Nox.Main.Runtime {
 				// Fallback : world par défaut embarqué dans les assets
 				if (!string.IsNullOrEmpty(worldHash))
 					_coreAPI.LoggerAPI.LogWarning($"World hash '{worldHash}' specified in config but not found in cache. Falling back to default world.");
-				sessionOptions["world"] = new ResourceIdentifier(_coreAPI.ModMetadata.GetId(), "worlds/default/default.unity");
+				sessionOptions["world"] = new ResourceIdentifier(_coreAPI.ModMetadata.Id, "worlds/default/default.unity");
 			}
 
 			if (!SessionAPI.TryMake(

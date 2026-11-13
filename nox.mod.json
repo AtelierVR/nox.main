@@ -25,7 +25,7 @@
   ],
   "relations": [
     {
-      "id": "session",
+      "id": "sessions",
       "type": "depends",
       "register": "git+https://github.com/AtelierVR/nox.sessions.git"
     }
